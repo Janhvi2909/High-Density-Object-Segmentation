@@ -153,9 +153,13 @@ Thumbs.db
 
 # Project specific
 output/
-results/
 *.pkl
 *.npy
+
+# Results - keep figures and metrics
+results/models/
+!results/figures/
+!results/metrics/
 
 # Large files
 *.mp4
